@@ -1,4 +1,5 @@
-# ChatMate 💬
+# ChatMate V.1
+By Ahmad Riko Dyansyah
 
 Aplikasi chatting mobile bergaya **WhatsApp**, dibangun dengan **Flutter/Dart**.
 UI/UX (tab Chats–Status–Calls, bubble chat, read receipt, status online, dsb)
