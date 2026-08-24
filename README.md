@@ -6,12 +6,6 @@ UI/UX (tab Chats–Status–Calls, bubble chat, read receipt, status online, dsb
 dibuat semirip mungkin dengan pengalaman WhatsApp, namun menggunakan nama,
 warna, dan aset orisinal (bukan logo/brand resmi WhatsApp/Meta).
 
-> Catatan: aplikasi ini adalah **demo/prototipe fungsional** tanpa backend
-> server sungguhan. Semua "lawan chat" adalah simulasi lokal (auto-reply)
-> agar interaksi terasa hidup — cocok untuk dipakai sebagai portofolio,
-> tugas kuliah, atau starting point untuk dikembangkan ke backend nyata
-> (Firebase, WebSocket, dsb).
-
 ## ✨ Fitur
 
 - **Tab Chats** — daftar percakapan dengan foto profil (avatar inisial),
@@ -87,25 +81,6 @@ flutter pub get
 ```bash
 flutter run
 ```
-Pilih device/emulator yang tersedia (Android, iOS, atau Chrome untuk versi web).
-
-## 🎨 Kustomisasi
-
-- **Warna tema**: ubah di `lib/theme.dart` (`AppColors`).
-- **Kontak & data awal**: ubah di `lib/data/mock_data.dart`.
-- **Balasan otomatis**: tambah/edit list `autoReplies` di `mock_data.dart`.
-- **Logo/nama aplikasi**: ubah judul di `main.dart` (`MaterialApp.title`) dan
-  ikon aplikasi lewat `flutter_launcher_icons` (tambahkan sendiri bila perlu).
-
-## 🔮 Pengembangan Selanjutnya (saran)
-
-- Hubungkan ke backend nyata (Firebase Firestore + Cloud Messaging, atau
-  WebSocket/Socket.IO custom) untuk chat real-time antar pengguna sungguhan.
-- Autentikasi nomor HP (OTP) seperti WhatsApp asli.
-- Kirim gambar/video/dokumen (saat ini tombol lampiran masih placeholder).
-- Panggilan suara/video sungguhan (mis. pakai Agora/WebRTC).
-- End-to-end encryption untuk keamanan pesan.
-
 ## 📄 Lisensi
 
 Proyek ini dibuat untuk keperluan belajar/portofolio pribadi. Silakan
