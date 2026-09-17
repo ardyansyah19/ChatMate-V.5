@@ -6,22 +6,6 @@ UI/UX (tab Chats–Status–Calls, bubble chat, read receipt, status online, dsb
 dibuat semirip mungkin dengan pengalaman WhatsApp, namun menggunakan nama,
 warna, dan aset orisinal (bukan logo/brand resmi WhatsApp/Meta).
 
-## ✨ Fitur
-
-- **Tab Chats** — daftar percakapan dengan foto profil (avatar inisial),
-  pesan terakhir, waktu, badge jumlah pesan belum dibaca, sematkan chat,
-  bisukan notifikasi, dan hapus chat (swipe).
-- **Chat Detail** — bubble chat kiri/kanan, timestamp, centang status
-  kirim (mengirim/terkirim/sampai/dibaca ✓✓ biru), indikator
-  **"sedang mengetik..."**, auto-reply simulasi.
-- **Tab Status** — daftar pembaruan status ala Stories, avatar dengan ring hijau.
-- **Tab Calls** — riwayat panggilan (masuk/keluar/tidak terjawab, suara/video).
-- **Kontak Baru** — mulai chat dari daftar kontak, pencarian kontak.
-- **Pencarian chat** langsung dari halaman utama.
-- **Mode Gelap/Terang** yang tersimpan otomatis.
-- **Penyimpanan lokal** — semua chat & preferensi tema disimpan di perangkat
-  (`shared_preferences`), jadi tetap ada walau aplikasi ditutup/dibuka lagi.
-
 ## 🧱 Struktur Proyek
 
 ```
